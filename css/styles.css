@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+html {
+
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+
+
+/* Styles Generales */
+
+
+.current{
+
+    background-color: #10c9c3 !important;
+}
+
+
+
+/* Preloader */
+
+#preloader {
+
+    position: fixed;
+    min-width:100vw;
+    min-height: 100vh;
+    z-index: 1000000000000;
+    background-color:#f5f5f5;
+}
+
+
+#preloader img {
+
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 105vh;
+}
+
+
+
+.loader {
+
+    display: none !important;
+  
+}
+
+
+/* NavBar */
+
+#nav {
+
+    display: flex;
+    width: 100vw;
+    position: relative ;
+    transition: 1s;
+    z-index: 10000000;
+ 
+}
+
+.nav-scroll {
+
+    position: fixed !important;
+    top: 1.8rem !important ; 
+    border-bottom: 1px solid #000 !important;
+    background-color: #f6f6f6 !important ;
+
+}
+
+
+
+.navbar-brand {
+
+    text-decoration: none;
+    color: #000;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem !important;
+    transition: 1s;
+    animation: triangulo infinite 5s linear;
+
+}
+
+/* Nav brand Animation */
+
+
+@keyframes triangulo {
+
+    0%{}
+    25%{ color: #10c9c3; }
+    50%{ color: #10c9c3; }
+    75%{ color: #10c9c3; }
+    100%{}
+
+}
+
+@keyframes zoom {
+
+    0%{}
+    25%{ transform:  rotate(180deg);}
+    50%{ transform: rotate(180deg);}
+    75%{transform:  rotate(360deg) }
+    100%{transform: rotate(360deg)}
+
+}
+
+
+
+.navbar-brand:hover {
+
+    color: #10c9c3;
+}
+
+
+
+.navbar-brand img {
+
+   animation: zoom infinite 5s linear;
+}
+
+
+
+
+#menu {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+#menu li {
+
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+#menu li:hover{
+
+    background-color: #10c9c3;
+    transition: 1s;
+}
+
+#menu li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center !important ;
+    margin-right: 20px;
+}
+
+#menu li a:hover{
+
+    color: #000 ;
+}
+
+.bars span i {
+
+    font-size: 7vw ;
+
+    z-index: 1000000000000000000000;
+}
+
+.active{
+
+    color: #10c9c3 !important;
+}
+
+
+/* End of NAVBAR */
+
+
+
+/* Section 1 (home) */
+
+#sec1 {
+
+    height: 70vh;
+    background: url(../img/home_banner.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sec-1-content h1 {
+
+    font-size: 8vw;
+    color: #f6f6f6;
+    text-shadow: 5px 5px 5px #000;
+    border-bottom: 1px solid #10c9c3;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.sec-1-content p {
+
+    text-align: justify;
+    font-size: 4.6vw !important ;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 3rem;
+
+    
+
+}
+
+
+.home-btn {
+
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn a {
+
+    font-size: 4vw;
+    font-weight: bold;
+    color: #f6f6f6;
+    text-shadow: 3px 3px 5px #000;
+    border: 2px solid #f6f6f6;
+    transition: 1s;
+}
+
+
+/* Section 2 */
+
+.sec-2-content h2 { 
+
+    font-size: 9vw;
+    border-bottom: 1px solid #10c9c3;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+.sec-2-p  p{ 
+
+    font-size: 4vw;
+    line-height: 2.7rem;
+    margin-bottom: 4rem;
+
+}
+
+
+/* Section 3 (works) */
+
+.sec-3 h2 {
+
+    font-size: 9vw;
+    border-bottom: 1px solid #10c9c3;
+    margin: 3rem 0;
+    padding-bottom: 1rem;
+
+}
+
+.icons {
+
+    background-color: #10c9c3;
+}
+
+
+.work-service {
+
+    align-items: center;
+    margin: 3rem 0;
+    justify-content: center;
+}
+
+
+
+
+.work-service i {
+
+    font-size: 10vw;
+    color: #f6f6f6;
+    
+}
+
+
+.number {
+
+    width: 50%;
+    font-size: 8vw;
+    color:#f6f6f6;
+    text-align: center;
+
+
+}
+
+
+.service-content p {
+
+    margin: 0;
+    padding: 0;
+    font-size: 4.5vw;
+}
+
+
+
+/* Section 4 (Services) */
+
+#sec4 {
+
+    background-color: #949494;
+    padding: 0;
+}
+
+.sec-4 h2 {
+
+
+    font-size: 9vw;
+    padding: 3rem 0rem;
+    border-bottom: 1px solid #10c9c3;
+    text-align: center;
+    color: #f6f6f6;
+
+}
+
+
+.services {
+
+    background-color: #949494;
+}
+
+.card {
+
+    border: none !important ;
+    background: #949494 !important ;
+}
+
+
+.card span i { 
+
+    font-size: 8vw;
+    margin-bottom: 0.5rem;
+    color: #10c9c3;
+}
+
+.card-title {
+
+    font-size: 4vw;
+}
+
+.card-body {
+
+    padding: 0.5rem 0;
+
+}
+
+.card-text {
+
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+/* Carousel */
+
+
+.carousel-content {
+
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-content h3 {
+
+    font-size: 10vw;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #fff;
+}
+
+.carousel-content p {
+
+    margin-top: 1rem;
+    font-size: 4vw;
+
+
+}
+
+
+
+
+.vintage {
+
+    padding: 0 1rem;
+}
+
+
+/* Section 5 (contact) */
+
+.sec-5-content h2 {
+
+    font-size: 9vw;
+    padding-bottom:1rem ;
+    border-bottom: 1px solid #10c9c3;
+
+}
+
+
+.form-group input {
+
+    font-size: 4vw;
+}
+
+
+.form-group textarea {
+
+    font-size: 4vw;
+    height: 30vh;
+    max-height: 30vh;
+    min-height: 30vh;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+.foot-text {
+
+    padding: 2rem 0;
+}
+
+.foot-text h3 {
+
+    font-size: 6.5vw;
+    color: #f6f6f6;
+    margin-bottom: 1rem;
+}
+
+
+.foot-text p {
+
+    font-size:4vw ;
+    color: #10c9c3;
+}

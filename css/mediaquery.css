@@ -1,0 +1,643 @@
+/* Media Querys */
+
+
+@media screen and (min-width : 567px) {
+
+.sec-1-content h1 {
+
+    text-align: center;
+    font-size: 5vw;
+
+}
+
+
+.sec-1-content p {
+
+    font-size: 3vw !important;
+}
+
+.home-btn a {
+
+    font-size: 2vw;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+    border: 2px solid #f6f6f6;
+    transition: 1s;
+}
+
+
+/* Section 2 */ 
+
+
+.sec-2-content h2 {
+
+    font-size: 5vw;
+}
+
+
+.sec-2-content p {
+
+    font-size: 2vw;
+
+}
+
+.progres_bars h3 {
+
+    font-size: 3.5vw;
+}
+
+/* Works Sec-3 */
+
+.sec-3 h2 {
+
+    font-size: 5vw;
+}
+
+
+
+/* Services */
+
+.card-text {
+
+    font-size: 2vw;
+}
+
+/* Carousel */
+
+
+.carousel-content p {
+
+    font-size: 2vw;
+}
+
+
+.sec-5-content h2 {
+
+    font-size: 5vw;
+}
+
+
+/* Contact */
+
+.form-group label {
+
+    font-size: 3vw;
+}
+
+
+.form-group input {
+
+    font-size: 3vw;
+}
+
+.form-group textarea {
+
+    font-size: 3vw;
+    height: 30vh;
+    max-height: 30vh;
+    min-height: 30vh;
+}
+
+
+/* Footer  */
+
+.foot-text h3 {
+
+    font-size: 5vw;
+}
+
+
+.foot-text p {
+
+    font-size: 2.5vw;
+}
+
+}
+
+@media screen and (min-width : 768px) {
+
+
+    /* Navigation  */
+
+   .bars span i {
+
+    font-size: 3.5vw;
+   }
+
+   .sec-1-content h1 {
+
+    text-align: center;
+    font-size: 7vw;
+
+}
+
+
+   
+   .home-btn a {
+
+    font-size: 2vw;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+    border: 2px solid #f6f6f6;
+    transition: 1s;
+}
+
+
+   /* About  */
+
+
+   .prgres_bars {
+
+    width:80%;
+   }
+
+   .progres_img {
+
+    display: flex;
+
+   }
+
+   .progres_img img {
+
+    margin: 0 auto;
+   }
+
+   /* Works */
+
+   .service-icon i {
+
+    font-size: 6vw;
+   }
+
+   .service-content p {
+
+    font-size: 2.5vw;
+    margin-left: 4rem !important;
+
+   }
+
+   .number {
+
+    width: 100%;
+   }
+
+
+   /* Carousel */
+
+   .carousel-content  {
+
+    height: 50vh;
+   }
+
+
+}
+
+
+
+@media screen and (min-width : 992px) {
+
+
+    /* General  */
+
+
+    /* Navbar */
+
+    #menu li {
+
+        border: none;
+    }
+
+
+    #menu li a {
+
+        font-size: 1.5rem;
+    
+
+    }
+
+
+    /* Home */
+
+  
+
+    #sec1 {
+
+        height: 100vh;
+        width: 100%;
+    }
+
+
+    .sec-1-content {
+
+        margin-right: 4rem;
+    }
+
+
+    .sec-1-content h1 {
+
+        font-size: 6vw;
+    }
+
+    .sec-1-content p {
+
+        font-size: 1.5vw;
+    }
+    
+
+    .home-btn a {
+
+        font-size: 1.5vw;
+        color: #fff;
+        text-shadow: 3px 3px 5px #000;
+        border: 2px solid #f6f6f6;
+        transition: 1s;
+    }
+
+
+    /* About */
+
+
+ .sec-2-content h2 { 
+
+    font-size: 3vw;
+ }
+
+
+ .sec-2-content p {
+
+    font-size: 1.5vw;
+ }
+
+
+ /* Works */
+
+
+ .sec-3 h2 {
+
+    font-size: 3vw;
+    margin-top: 10rem !important;
+ }
+
+
+ /* .icons { 
+
+    padding: 0 !important;
+ }
+ */
+
+ .service-icon i {
+
+    font-size: 4vw;
+  
+ }
+
+ .number {
+
+    font-size: 3vw;
+ }
+
+
+ .service-content {
+
+    margin-left: 2rem;
+    padding: 0 !important;
+ }
+
+
+ .service-content p {
+
+    font-size: 1.5vw;
+    margin: 0 !important;
+    text-align: center;
+ }
+
+ /* Sec4 services */
+
+ #sec4 h2 { 
+
+    font-size: 3vw;
+ }
+
+
+ /* Cards */
+
+ .card span i {
+
+    font-size: 5vw;
+    padding-bottom: 1rem;
+ }
+
+ 
+
+ .card-title {
+
+    font-size: 2vw;
+ }
+
+.card-text {
+
+    font-size: 1.5vw;
+}
+
+
+/* Carousel */
+
+.carousel-content h3 {
+
+    font-size: 5vw;
+}
+
+.carousel-content p {
+
+    font-size: 1.5vw;
+}
+
+/* Section 5 */
+/* Formulario  */
+
+#sec5 {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sec-5-content h2 {
+
+    font-size: 3vw;
+}
+
+.sec-5-content p {
+
+    font-size: 1vw;
+    color: #000;
+
+}
+
+.form-group label {
+
+    font-size: 2vw;
+    color: #000;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.form-group input {
+
+    font-size: 2vw;
+    margin-bottom: 2rem;
+}
+
+.form-group textarea {
+
+    font-size: 2vw;
+}
+
+.form-button button {
+
+    font-size: 1.5vw;
+}
+
+.vintage img {
+
+    width: 100%;
+}
+
+/* Footer */
+
+.foot-text h3 {
+
+    font-size: 3vw;
+}
+
+.foot-text p {
+
+    font-size: 1.5vw;
+}
+
+
+
+}
+
+
+
+
+@media screen and (min-width : 1200px){
+
+
+    /* Navbar */
+
+    #menu li {
+
+        border: none;
+    }
+
+
+    #menu li a {
+
+        font-size: 1.5rem;
+    
+
+    }
+
+
+    /* Home */
+
+    #sec1 {
+
+        height: 100vh;
+        width: 100vw;
+    }
+
+
+    .sec-1-content {
+
+        margin-right: 4rem;
+    }
+
+
+    .sec-1-content h1 {
+
+        font-size: 4vw;
+    }
+
+    .sec-1-content p {
+
+        font-size: 2vw !important;
+    }
+    
+
+    .home-btn button {
+
+        font-size: 1vw;
+    }
+
+
+    /* About */
+
+
+ .sec-2-content h2 { 
+
+    font-size: 2.5vw;
+ }
+
+
+ .sec-2-content p {
+
+    font-size: 1vw;
+ }
+
+ .progres_bars h3 {
+
+    font-size: 2vw;
+ }
+
+
+ /* Works */
+
+
+ .sec-3 h2 {
+
+    font-size: 2.5vw;
+    margin-top: 10rem !important;
+ }
+
+
+ /* .icons { 
+
+    padding: 0 !important;
+ }
+ */
+
+ .service-icon i {
+
+    font-size: 3.5vw;
+  
+ }
+
+ .number {
+
+    font-size: 2.5vw;
+ }
+
+
+ .service-content {
+
+    margin-left: 2rem;
+    padding: 0 !important;
+ }
+
+
+ .service-content p {
+
+    font-size: 1vw;
+    margin: 0 !important;
+    text-align: center;
+ }
+
+ /* Sec4 services */
+
+ #sec4 h2 { 
+
+    font-size: 3vw;
+ }
+
+
+ /* Cards */
+
+ .card span i {
+
+    font-size: 4vw;
+    padding-bottom: 1rem;
+ }
+
+ 
+
+ .card-title {
+
+    font-size: 1.5vw;
+ }
+
+.card-text {
+
+    font-size: 1vw;
+}
+
+
+/* Carousel */
+
+.carousel-content h3 {
+
+    font-size: 4vw;
+}
+
+.carousel-content p {
+
+    font-size: 1vw;
+}
+
+.vintage img {
+
+    width: 100%;
+}
+
+/* Section 5 */
+/* Formulario  */
+
+#sec5 {
+
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sec-5-content h2 {
+
+    font-size: 2.5vw;
+}
+
+.sec-5-content p {
+
+    font-size: 1vw;
+    color: #000;
+
+}
+
+.form-group label {
+
+    font-size: 1.2vw;
+    color: #000;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.form-group input {
+
+    font-size: 1.2vw;
+    margin-bottom: 2rem;
+}
+
+.form-group textarea {
+
+    font-size: 1.2vw;
+}
+
+.form-button button {
+
+    font-size: 1.2vw;
+}
+
+/* Footer */
+
+.foot-text h3 {
+
+    font-size: 2vw;
+}
+
+.foot-text p {
+
+    font-size: 1vw;
+}
+
+
+
+
+
+
+}
